@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.player{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    line-height: 75px;
+    font-size: 30px;
+    height: 100vh;
+}
+
+.playersBox{
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr;
+}
+
+.playerHp{
+    color: rgb(255, 0, 0);
+}
+
+.playerMana{
+    color: blueviolet;
+}
+
+.playerActions{
+    color: green;
+}
+
+.skillButton{
+    border-color: rgb(0, 0, 0);
+    border-radius: 5%;
+    border-width: 5px;
+}
+
+.playerInputLabel{
+
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: rgb(0, 0, 0);
+    border-width: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.playerNameInput{
+
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: rgb(0, 0, 0);
+    border-width: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.addPlayerGrid{
+    display: grid;
+}
